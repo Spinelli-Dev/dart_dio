@@ -5,7 +5,68 @@ import 'dart:convert';
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
-  // // Criando uma Calculadora
+  // // Calculadora com Switch Case
+  // print("Digite o primeiro número:");
+  // var line = stdin.readLineSync(encoding: utf8);
+  // var num1 = double.parse(line ?? "0");
+
+  // print("Digite o segundo número:");
+  // line = stdin.readLineSync(encoding: utf8);
+  // var num2 = double.parse(line ?? "0");
+
+  // print("Digite a operação: (+ , - , * , /)");
+  // line = stdin.readLineSync(encoding: utf8);
+  // var operacao = line ?? "";
+
+  // double resultado = 0; 
+  // switch (operacao) {
+  //   case "+": 
+  //     resultado = num1 + num2;
+  //     break;
+  //   case "-":
+  //     resultado = num1 - num2;
+  //     break;
+  //   case "*":
+  //     resultado = num1 * num2;
+  //     break;
+  //   case "/":
+  //     resultado = num1 / num2;
+  //     break;
+  //   default:
+  //     print("Operação inválida.");
+  //     exit(0);
+  // }
+  // print("O resultado da operação é: $resultado");
+
+
+ /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/ 
+  // // Criando uma Calculadora com o IF
   // print("Bem vindo a nossa calculadora!");
   // print("Informe o primeiro número:");
   // var line = stdin.readLineSync(encoding: utf8);
