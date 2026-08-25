@@ -1,6 +1,43 @@
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
+  // // Condicional IF ternário
+  // var media = 7;
+  // var resultado = (media >= 7) ? "O aluno passou" : "O aluno reprovou";
+  // if (media >= 7) {
+  //   resultado = "O aluno passou";
+  // } else {
+  //   resultado = "O aluno reprovou";
+  // }
+  // print(resultado);
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
   // // Condicional IF
   // var nota1 = 3;
   // var nota2 = 5;
