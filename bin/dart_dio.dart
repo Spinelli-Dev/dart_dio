@@ -1,19 +1,75 @@
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
-  // Variável do tipo Dinâmico
-  dynamic var1 = "ABC";
-  print(var1);
-  var1 = 10;
-  print(var1);
-  var1 = 99.54;
-  print(var1);
-  var1 = true;
-  print(var1);
-  var1 = DateTime(2026, 08,25);
-  print(var1);
-  var1 = [10, true, "A"];
-  print(var1);
+  // // Variável Datas
+  // var data = DateTime.now();
+  // DateTime data1 = DateTime.now();
+  // data = DateTime.parse("2026-08-25 19:54:33");
+
+  // // Partes da data
+  // print(data);
+  // print(data.day);
+  // print(data.month);
+  // print(data.year);
+  // print(data.hour);
+  // print(data.minute);
+  // print(data.second);
+
+  // // Dia da semana
+  // print(data.weekday);
+
+  // // Soma de datas
+  // print(data.add(Duration(days: 1)));
+  // print(data);
+  // print(data.subtract(Duration(hours: 1)));
+  // print(data);
+
+  // data1 = DateTime.parse("2026-08-24 20:03:45");
+  // print(data.isAfter(data1));
+  // print(data.isBefore(data1));
+  // print(data.compareTo(data1));
+
+
+  /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+  // // Variável do tipo Dinâmico
+  // dynamic var1 = "ABC";
+  // print(var1);
+  // var1 = 10;
+  // print(var1);
+  // var1 = 99.54;
+  // print(var1);
+  // var1 = true;
+  // print(var1);
+  // var1 = DateTime(2026, 08,25);
+  // print(var1);
+  // var1 = [10, true, "A"];
+  // print(var1);
   
   
 /*
