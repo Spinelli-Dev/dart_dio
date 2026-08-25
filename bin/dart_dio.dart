@@ -1,6 +1,83 @@
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
+  // Variável do tipo Dinâmico
+  dynamic var1 = "ABC";
+  print(var1);
+  var1 = 10;
+  print(var1);
+  var1 = 99.54;
+  print(var1);
+  var1 = true;
+  print(var1);
+  var1 = DateTime(2026, 08,25);
+  print(var1);
+  var1 = [10, true, "A"];
+  print(var1);
+  
+  
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+  // // Tipo constante
+  // const String variavel = "ABC";
+  // const int variavel1 = 1;
+  // const bool variavel2 = true;
+
+  // print(variavel);
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
   // // Tipos de dados Map
   // Map<String, dynamic> map1 = Map<String, dynamic>();
   // var map = {'zero': 0, 'one': 1, 'two': 2};
