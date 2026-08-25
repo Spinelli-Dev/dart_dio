@@ -1,6 +1,49 @@
+import 'dart:io';
+
+import 'dart:convert';
+
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
+  // // Lendo dados do Console
+  // print("Infome a primeira nota: ");
+  // var line = stdin.readLineSync(encoding: utf8);
+  // var prova1 = int.parse(line == null ? "0" : line);
+
+  // print("Informe a segunda nota: ");
+  // line = stdin.readLineSync(encoding: utf8);
+  // var prova2 = int.parse(line ?? "0"); // abreviação do ternário
+
+  // print(prova1);
+  // print(prova2);
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
   // // Condicional IF ternário
   // var media = 7;
   // var resultado = (media >= 7) ? "O aluno passou" : "O aluno reprovou";
