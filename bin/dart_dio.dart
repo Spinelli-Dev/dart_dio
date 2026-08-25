@@ -1,6 +1,46 @@
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
+  // // Condicional IF
+  // var nota1 = 3;
+  // var nota2 = 5;
+  // var media = (nota1 + nota2) / 2;
+
+  // if ((nota1 == 10) || (nota2 == 10)){
+  //   print("O aluno passou por ter tirado nota máxima em uma das provas.");
+  // } else if (media >= 7){
+  //   print("O aluno passo com a nota: " + media.toString());
+  // } else {
+  //   print("O aluno reprovou com a nota: $media");
+  // }
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
   // // Funções básicas
   // var nota1 = 9;
   // var nota2 = 5;
@@ -14,6 +54,33 @@ void main(List<String> arguments) {
   // print((nota1 == 10) || (nota2 == 10));
 
 
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
   // // Variável Datas
   // var data = DateTime.now();
   // DateTime data1 = DateTime.now();
@@ -43,7 +110,7 @@ void main(List<String> arguments) {
   // print(data.compareTo(data1));
 
 
-  /*
+/*
 
 
 
