@@ -1,6 +1,19 @@
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
+  // // Funções básicas
+  // var nota1 = 9;
+  // var nota2 = 5;
+  // var media = (nota1 + nota2) / 2;
+
+  // print(media);
+  // print(media >= 7);
+  // print(nota1 == nota2);
+  // print(nota1 != nota2);
+  // print((nota1 >= 7) && (nota2 >= 7));
+  // print((nota1 == 10) || (nota2 == 10));
+
+
   // // Variável Datas
   // var data = DateTime.now();
   // DateTime data1 = DateTime.now();
