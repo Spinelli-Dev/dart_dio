@@ -5,6 +5,69 @@ import 'dart:convert';
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
+  // Laço de repetição FOR
+  var resultado = 0;
+  var quantidade = 0;
+  print("Informe a quantidade de números:");
+  var line = stdin.readLineSync(encoding: utf8);
+  quantidade = int.parse(line ?? "0");
+
+  for (var i = 0; i < quantidade; i++) {
+    print("Informe o número:");
+    line = stdin.readLineSync(encoding: utf8);
+    var numero = int.parse(line ?? "0");
+    numero = int.parse(line ?? "0");
+
+    resultado = resultado + numero;
+  }
+
+  print("A somda de todos os número é: $resultado");
+
+  // var listaNomes = ["Flávio", "Pedrinho", "Mariazinha"];
+  // for (var i = 0; i < listaNomes.length; i++) {
+  //   print(listaNomes[i]);
+  // }
+
+  // var texto = "Meu bloco FOR";
+  // for (var i = 0; i < texto.length; i++) {
+  //   print(texto[i]);
+  // }
+
+  // for (var i = 0; i < 99; i++) {
+  //   print(i);
+  //   if ((i >= 10) && (i < 49)){
+  //     i++; 
+  //   } else if (i >= 50) {
+  //     i = i + 4;
+  //   }
+  // }
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/ 
   // // Calculadora com Switch Case
   // print("Digite o primeiro número:");
   // var line = stdin.readLineSync(encoding: utf8);
