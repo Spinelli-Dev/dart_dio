@@ -5,28 +5,70 @@ import 'dart:convert';
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
-  // Estrutura de repetição While
-  var contador = 0;
-  var total = 10;
+  // Estrutura de repetição Do While
+  var opcao = "";
+  var acumulador = 0.0;
 
-  while (contador < total) {
-    contador = contador + 1;
-    print(contador);
-  }
-
-  print("Digite um número ou 'S' para sair:");
-  var line = stdin.readLineSync(encoding: utf8);
-  double acumulador = 0;
-
-  while (line != "S") {
-    var numero = double.parse(line ?? "");
-    acumulador = acumulador + numero;
+  do {
     print("Digite um número ou 'S' para sair:");
-    line = stdin.readLineSync(encoding: utf8);
-  }
+    var line = stdin.readLineSync(encoding: utf8);
+    opcao = line ?? "";
+    var numero = double.tryParse(opcao);
+    if (numero != null) {
+      acumulador = acumulador + numero;
+    }
+  } while (opcao != "S");
   print(acumulador);
 
-  
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+  // // Estrutura de repetição While
+  // var contador = 0;
+  // var total = 10;
+
+  // while (contador < total) {
+  //   contador = contador + 1;
+  //   print(contador);
+  // }
+
+  // print("Digite um número ou 'S' para sair:");
+  // var line = stdin.readLineSync(encoding: utf8);
+  // double acumulador = 0;
+
+  // while (line != "S") {
+  //   var numero = double.parse(line ?? "");
+  //   acumulador = acumulador + numero;
+  //   print("Digite um número ou 'S' para sair:");
+  //   line = stdin.readLineSync(encoding: utf8);
+  // }
+  // print(acumulador);
+
+
 /*
 
 
