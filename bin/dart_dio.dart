@@ -5,23 +5,65 @@ import 'dart:convert';
 import 'package:dart_dio/dart_dio.dart' as dart_dio;
 
 void main(List<String> arguments) {
-  // Laço de repetição FOR
-  var resultado = 0;
-  var quantidade = 0;
-  print("Informe a quantidade de números:");
-  var line = stdin.readLineSync(encoding: utf8);
-  quantidade = int.parse(line ?? "0");
-
-  for (var i = 0; i < quantidade; i++) {
-    print("Informe o número:");
-    line = stdin.readLineSync(encoding: utf8);
-    var numero = int.parse(line ?? "0");
-    numero = int.parse(line ?? "0");
-
-    resultado = resultado + numero;
+  // Estrutura de repetição For Each (For in)
+  var numeros = [1,5,10,35,67];
+  for (var numero in numeros) {
+    print(numero);
   }
 
-  print("A somda de todos os número é: $resultado");
+  var letras = ["A", "B", "F", "K"];
+  for (var letra in letras) {
+    print(letra);
+  }
+
+  letras.forEach((element) {
+    print(element);
+  });
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+  // // Laço de repetição FOR
+  // var resultado = 0;
+  // var quantidade = 0;
+  // print("Informe a quantidade de números:");
+  // var line = stdin.readLineSync(encoding: utf8);
+  // quantidade = int.parse(line ?? "0");
+
+  // for (var i = 0; i < quantidade; i++) {
+  //   print("Informe o número:");
+  //   line = stdin.readLineSync(encoding: utf8);
+  //   var numero = int.parse(line ?? "0");
+  //   numero = int.parse(line ?? "0");
+
+  //   resultado = resultado + numero;
+  // }
+
+  // print("A somda de todos os número é: $resultado");
 
   // var listaNomes = ["Flávio", "Pedrinho", "Mariazinha"];
   // for (var i = 0; i < listaNomes.length; i++) {
@@ -41,6 +83,8 @@ void main(List<String> arguments) {
   //     i = i + 4;
   //   }
   // }
+
+
 /*
 
 
